@@ -10,7 +10,7 @@ from cryptography.fernet import Fernet
 # f_keys = open("keys.pkl", "rb")
 # keys = pickle.load(f_keys)
 
-key = b'sDPwjSlr6uHHuH8ezqzjZBJau8dTShpPHWxwkDvVf-c='
+key = b'50uEbOMxZjWrwyG_fFX3wdV7p2ajPl_k2xtE7-4UVJ8='
 fernet = Fernet(key)
 fernet2 = Fernet(key)
 
